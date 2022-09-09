@@ -40,6 +40,10 @@ function bingo(ticket, win){
 }
 ```
 
+## Projects:
 
+- [Eldritch Horror](https://codejam-alyamba.netlify.app/)
+- [CV](https://alyamba.github.io/rsschool-cv/)
+- [Momentum](https://alyamba-momentum.netlify.app/)
+- [Airport site](https://github.com/alyamba/airport_site)
 
-  
