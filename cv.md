@@ -2,8 +2,8 @@
 
 ## Contacts:
 
-- **Discord**: алямба#3449
-- [**E-mail**](logunionok@gmail.com)
+- [**Discord**](https://discordapp.com/users/519532250187169796/)
+- [**E-mail**](mailto:logunionok@gmail.com)
 - [**LinkedIn**](https://www.linkedin.com/in/ideallogunova/)
 - [**Telegram**](https://t.me/ideallogunova)
 
@@ -39,5 +39,7 @@ function bingo(ticket, win){
       return count >= win ? 'Winner!' : 'Loser!'
 }
 ```
+
+
 
   
