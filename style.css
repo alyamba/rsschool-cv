@@ -106,7 +106,7 @@ header{
   margin: 32px 10%;
 }
 
-#title-content {
+.title-content {
   font-weight: 500;
   font-size: 25px;
   color: #e286f1;
@@ -124,7 +124,7 @@ header{
   flex-direction: row;
 }
 
-#technology {
+.technology {
   display: flex;
   flex: 1;
   align-items: center;
