@@ -47,3 +47,9 @@ function bingo(ticket, win){
 - [Momentum](https://alyamba-momentum.netlify.app/)
 - [Airport site](https://github.com/alyamba/airport_site)
 
+## Education:
+
+- **Belarusian State University of Informatics and Radioelectronics** *Information Systems and Technologies in Economics (2020-2024)*
+- **The Rolling Scopes School** *JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)*
+- **The Rolling Scopes School** *JAVASCRIPT/FRONT-END 2022Q3*
+
