@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
   <title>CV</title>
+
+  <nav class="nav">
+    <ul class="nav-ul">
+      <li class="nav-point">
+        <a href="#contacts" class="link-nav">Contacts</a>
+      </li>
+      <li class="nav-point">
+        <a href="#about" class="link-nav">About me</a>
+      </li>
+      <li class="nav-point">
+        <a href="#skills" class="link-nav">Skills</a>
+      </li>
+      <li class="nav-point">
+        <a href="#code" class="link-nav">Code example</a>
+      </li>
+      <li class="nav-point">
+        <a href="#projects" class="link-nav">Projects</a>
+      </li>
+      <li class="nav-point">
+        <a href="#education" class="link-nav">Education</a>
+      </li>
+      <li class="nav-point">
+        <a href="#languages" class="link-nav">Languages</a>
+      </li>
+    </ul>
+  </nav>
 </head>
+
 <body>
-  
+  <header>
+    <img src="assets/img/my_photo.jpg" alt="my photo" class="img" />
+    <div class="info">
+      <p class="name">Alina Logunova</p>
+      <p class="vacancy">Junior Front-End Developer</p>
+    </div>
+  </header>
+  <main>
+    <section class="section" id="contacts">
+      <p class="content" id="title-content">Contacts</p>
+      <ul class="contact-link">
+        <li class="li"><a href="https://discordapp.com/users/519532250187169796/" class="link">Discord</a></li>
+        <li class="li"><a href="mailto:logunionok@gmail.com" class="link">E-mail</a></li>
+        <li class="li"><a href="https://www.linkedin.com/in/ideallogunova/" class="link">LinkedIn</a></li>
+        <li class="li"><a href="https://t.me/ideallogunova" class="link">Telegram</a></li>
+      </ul>
+    </section>
+    <section class="section" id="about">
+      <p class="content" id="title-content">About me</p>
+      <p class="content" id="about-my">
+        I'm 19 years old. I live in Minsk. I study at University (BSUIR). In the future I will be a
+        programmer-economist. I study English and speak French well. When I was at school, I loved math and participated
+        in compititions.
+      </p>
+    </section>
+    <section class="section" id="skills">
+      <p class="content" id="title-content">Skills</p>
+      <div class="skills-block">
+        <p class="content" id="technology">JS</p>
+        <p class="content" id="technology">Git</p>
+        <p class="content" id="technology">Django</p>
+        <p class="content" id="technology">Python</p>
+      </div>
+      <div class="skills-block">
+        <p class="content" id="technology">HTML</p>
+        <p class="content" id="technology">CSS</p>
+        <p class="content" id="technology">SQL</p>
+        <p class="content" id="technology">C++</p>
+      </div>
+      </div>
+    </section>
+    <section class="section" id="code">
+      <p class="content" id="title-content">Code example</p>
+      <code>
+              <pre class="content" id="code-example">
+  towelSort = (matrix) =>
+  matrix?.length
+      ? matrix
+            .reduce(
+                (result, array, id) =>
+                    id % 2
+                        ? [...result, array.reverse()]
+                        : [...result, array],
+                []
+            )
+            .flat()
+      : [];
+              </pre>
+            </code>
+    </section>
+    <section class="section" id="projects">
+      <p class="content" id="title-content">Projects</p>
+      <div class="project-container">
+        <a href="https://codejam-alyamba.netlify.app/" class="link-project">
+          <img src="./assets/img/horror.png" alt="horror" class="project">
+        </a>
+        <a href="https://alyamba-momentum.netlify.app/">
+          <img src="./assets/img/momentum.png" alt="momentum" class="project">
+        </a>
+          <img src="./assets/img/airport.png" alt="airport" class="project">
+        </a>
+      </div>
+    </section>
+    <section class="section" id="education">
+      <p class="content" id="title-content">Education</p>
+      <ul>
+        <li>
+          <p class="education">Belarusian State University of Informatics and Radioelectronics</p>
+          <i class="specialization">Information Systems and Technologies in Economics (2020-2024)</i>
+        </li>
+        <li>
+          <p class="education">The Rolling Scopes School</p>
+          <i class="specialization">JS/FE PRE-SCHOOL 2022Q2(JAVASCRIPT)</i>
+        </li>
+        <li>
+          <p class="education">The Rolling Scopes School</p>
+          <i class="specialization">JAVASCRIPT/FRONT-END 2022Q3</i>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="languages">
+      <p class="content" id="title-content">Languages</p>
+      <div class="skills-block">
+        <p class="content" id="technology">English (A2)</p>
+        <p class="content" id="technology">French (B1-B2)</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <ul class="ul">
+        <li class="last-list">
+          <a href="https://www.linkedin.com/in/ideallogunova/">
+            <img src="./assets/svg/linkedin.svg" class="svg" alt="linkedin">
+          </a>
+        </li>
+        <li class="last-list">
+          <a href="https://github.com/alyamba">
+            <img src="./assets/svg/github.svg" class="svg" alt="git">
+          </a>
+        </li>
+        <li class="last-list">
+          <a href="https://rs.school/js/">
+            <img src="./assets/svg/rs_school.svg" class="svg" alt="rs">
+          </a>
+        </li>
+      </ul>
+      <p>© 2022 by alyamba</p>
+    </div>
+  </footer>
 </body>
+
 </html>
