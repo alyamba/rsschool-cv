@@ -53,3 +53,7 @@ function bingo(ticket, win){
 - **The Rolling Scopes School** *JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)*
 - **The Rolling Scopes School** *JAVASCRIPT/FRONT-END 2022Q3*
 
+## Languages:
+
+- English A2
+- French B1-B2
