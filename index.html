@@ -90,11 +90,11 @@
       <p class="content title-content">Code example</p>
 
       <pre class="content" id="code-example">
-        towelSort = (matrix) =>
+        towelSort = (matrix) =&gt;
         matrix?.length
         ? matrix
         .reduce(
-        (result, array, id) =>
+        (result, array, id) =&gt;
         id % 2
         ? [...result, array.reverse()]
         : [...result, array],
